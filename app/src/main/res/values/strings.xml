@@ -3,4 +3,5 @@
     <string name="btn_login">Log In</string>
     <string name="btn_get_started">Get Started</string>
     <string name="Login">Login</string>
+    <string name="SignUp">Sign Up</string>
 </resources>
