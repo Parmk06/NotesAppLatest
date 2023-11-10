@@ -3207,7 +3207,6 @@ id browser_actions_menu_view
 id btn_get_started
 id btn_login
 id btn_signup
-id button
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3469,6 +3468,7 @@ id pin
 id position
 id postLayout
 id pressed
+id progressBar
 id progress_bar
 id progress_circular
 id progress_horizontal
@@ -4750,6 +4750,7 @@ style ThemeOverlay_MaterialComponents_TimePicker_Display_TextInputEditText
 style ThemeOverlay_MaterialComponents_Toolbar_Popup_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Surface
+style Widget_App_TextInputEditText
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar

@@ -9,27 +9,43 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class Welcome extends AppCompatActivity {
-    TextView tv_welcome;
-    Button btn_login, btn_get_started;
+    private Button btnLogin;
+    private Button btnGetStarted;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
 
-        btn_login = findViewById(R.id.btn_login);
-        btn_get_started = findViewById(R.id.btn_get_started);
-       
+        // Find buttons by ID
+        btnLogin = findViewById(R.id.btn_login);
+        btnGetStarted = findViewById(R.id.btn_get_started);
 
-        btn_login.setOnClickListener(new View.OnClickListener() {
+        // Set click listeners
+        btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Open the login_activity
-                Intent intent = new Intent(Welcome.this, Login.class);
-                startActivity(intent);
+                openLoginActivity();
+            }
+        });
+
+        btnGetStarted.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openRegisterActivity();
             }
         });
     }
 
+    // Open the Login activity
+    private void openLoginActivity() {
+        Intent intent = new Intent(Welcome.this, Login.class);
+        startActivity(intent);
+    }
 
+    // Open the Register activity
+    private void openRegisterActivity() {
+        Intent intent = new Intent(Welcome.this, Register.class);
+        startActivity(intent);
+    }
 }

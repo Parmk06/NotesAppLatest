@@ -2,4 +2,8 @@
 <resources>
 
     <style name="TextStyle"></style>
+    <!-- Add this style to customize TextInputEditText -->
+    <style name="Widget.App.TextInputEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@null</item> <!-- Set background to null to remove underline -->
+    </style>
 </resources>

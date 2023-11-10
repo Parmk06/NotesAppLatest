@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:2:1-46:12
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Admin\.gradle\caches\transforms-3\d49ec510c338e4b25b77263b6d755eb1\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Admin\.gradle\caches\transforms-3\afb5814eccbd68069e5bd6389ce2ce7a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Admin\.gradle\caches\transforms-3\aa077958169644c5612c6abffae10edf\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -69,8 +69,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Admin\.gradle\caches\transform
 	xmlns:android
 		ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:5:5-42:19
-INJECTED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:5:5-42:19
+ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:5:5-44:19
+INJECTED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:5:5-44:19
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Admin\.gradle\caches\transforms-3\d49ec510c338e4b25b77263b6d755eb1\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Admin\.gradle\caches\transforms-3\d49ec510c338e4b25b77263b6d755eb1\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Admin\.gradle\caches\transforms-3\afb5814eccbd68069e5bd6389ce2ce7a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -127,12 +127,12 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Admin\.gradle\cach
 		ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:13:9-46
 	android:dataExtractionRules
 		ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.notesapp.Register
+activity#com.example.notesapp.Welcome
 ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:15:9-23:20
 	android:exported
 		ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:16:13-37
+		ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:16:13-36
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
@@ -149,12 +149,12 @@ ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidMan
 		ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:26:13-36
 	android:name
 		ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:25:13-34
-activity#com.example.notesapp.Welcome
+activity#com.example.notesapp.Register
 ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:33:9-41:20
 	android:exported
 		ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:35:13-36
 	android:name
-		ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:34:13-36
+		ADDED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml:34:13-37
 uses-sdk
 INJECTED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Admin\AndroidStudioProjects\NotesApp\app\src\main\AndroidManifest.xml

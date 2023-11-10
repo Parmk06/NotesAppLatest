@@ -21,12 +21,12 @@ drawable welcome_page_image
 id btn_get_started
 id btn_login
 id btn_signup
-id button
 id ed_email
 id ed_password
 id email_icon
 id image_login
 id password_icon
+id progressBar
 id progress_bar
 id tv_login
 id tv_welcome
@@ -48,5 +48,6 @@ string google_storage_bucket
 string project_id
 style TextStyle
 style Theme.NotesApp
+style Widget.App.TextInputEditText
 xml backup_rules
 xml data_extraction_rules
