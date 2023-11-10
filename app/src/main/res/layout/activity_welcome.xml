@@ -60,4 +60,11 @@
         android:onClick="openRegisterPagePage"
         android:background="@drawable/radius_button"
         android:textAllCaps="false" />
+    <ProgressBar
+        android:layout_width="24dp"
+        android:layout_height="64dp"
+        android:id="@+id/progress_bar"
+        android:visibility="gone"
+        android:layout_marginTop="12dp"
+        />
 </LinearLayout>
