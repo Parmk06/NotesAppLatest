@@ -12,6 +12,7 @@ public class Welcome extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
+        getSupportActionBar().setTitle("Welcome page");
     }
     public void openLoginPage(View view){
         startActivity(new Intent(this,Login.class));
