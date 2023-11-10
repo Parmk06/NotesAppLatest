@@ -13,4 +13,6 @@ public class Login extends AppCompatActivity {
         getSupportActionBar().setTitle("Login Page");
     }
 
+=======
+>>>>>>> login
 }
