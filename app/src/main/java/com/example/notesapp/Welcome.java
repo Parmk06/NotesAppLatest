@@ -14,11 +14,20 @@ public class Welcome extends AppCompatActivity {
         setContentView(R.layout.activity_welcome);
         getSupportActionBar().setTitle("Welcome page");
     }
+<<<<<<< HEAD
     public void openLoginPage(View view)
     {
         startActivity(new Intent(this,Login.class));
     }
     public void openRegisterPage(View view){
+=======
+    public void openLoginPage(View view){
+        
+        startActivity(new Intent(this,Login.class));
+    }
+    public void openRegisterationPage(View view){
+
+>>>>>>> login
         startActivity(new Intent(this,Register.class));
     }
 }
