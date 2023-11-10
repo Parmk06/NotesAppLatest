@@ -9,7 +9,6 @@
     android:gravity="center"
     tools:context=".Welcome">
 
-
     <ImageView
         android:layout_width="120dp"
         android:layout_height="100dp"
@@ -33,14 +32,15 @@
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/login_button"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
         android:layout_marginBottom="30dp"
         android:text="@string/btn_login"
         android:onClick="openLoginPage"
+        android:textColor="@color/white"
         android:textSize="20sp"
         style="@style/TextStyle"
+        android:background="@drawable/radius_login"
         android:textAllCaps="false" />
 
     <Button
@@ -53,6 +53,6 @@
         style="@style/TextStyle"
         android:text="@string/btn_get_started"
         android:textColor="@color/black"
-        android:background="@drawable/getstarted_button"
+        android:background="@drawable/radius_button"
         android:textAllCaps="false" />
 </LinearLayout>
