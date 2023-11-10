@@ -10,7 +10,7 @@
     tools:context=".Welcome">
 
     <ImageView
-        android:layout_width="120dp"
+        android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_marginBottom="10dp"

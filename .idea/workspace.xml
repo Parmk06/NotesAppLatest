@@ -9,11 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99c81be8-2677-44d9-a9b0-53c3c15a7b04" name="Changes" comment="welcome UI updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/notesapp/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/notesapp/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+    <list default="true" id="99c81be8-2677-44d9-a9b0-53c3c15a7b04" name="Changes" comment="buttons added on welcome page">
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -275,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699590950619</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="buttons added on welcome page">
+      <created>1699592484697</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699592484697</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,6 +303,7 @@
     <MESSAGE value="linked Login page to welcome" />
     <MESSAGE value="linked register to welcome page using Intent" />
     <MESSAGE value="welcome UI updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="welcome UI updated" />
+    <MESSAGE value="buttons added on welcome page" />
+    <option name="LAST_COMMIT_MESSAGE" value="buttons added on welcome page" />
   </component>
 </project>
