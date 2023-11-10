@@ -35,6 +35,7 @@ public class Register extends AppCompatActivity {
         String email = ed_email.getText().toString();
         String password = ed_password.getText().toString();
 
+        boolean isValid = validateData(email,password);
     }
     boolean validateData(String email, String password){
 
@@ -44,6 +45,9 @@ public class Register extends AppCompatActivity {
         }
         if(password.length()<6){
             ed_password.setError("Password length is invalid! ");
+            return false;
+
         }
+        return true;
     }
 }

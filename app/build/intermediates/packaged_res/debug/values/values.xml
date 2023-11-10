@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
-    <color name="dark_gray">#202020</color>
+    <color name="dark_gray">#92202020</color>
     <color name="grey_btn">#989896</color>
-    <color name="notes_app">#A3575755</color>
+    <color name="notes_app">#6D30302F</color>
     <color name="pink_color">#D7E6B5F6</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="Login">Login</string>
+    <string name="SignUp">Sign Up</string>
     <string name="app_name">Welcome to Little Notes!</string>
     <string name="btn_get_started">Get Started</string>
     <string name="btn_login">Log In</string>
+    <string name="gcm_defaultSenderId" translatable="false">697710337314</string>
+    <string name="google_api_key" translatable="false">AIzaSyAUjXUYR5kyrQ7bWjR3syMOCQpVXZFxYJY</string>
+    <string name="google_app_id" translatable="false">1:697710337314:android:0dbbdcb5ead9b6a695d97b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAUjXUYR5kyrQ7bWjR3syMOCQpVXZFxYJY</string>
+    <string name="google_storage_bucket" translatable="false">notesapp-ae11a.appspot.com</string>
+    <string name="project_id" translatable="false">notesapp-ae11a</string>
     <style name="TextStyle"/>
     <style name="Theme.NotesApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         

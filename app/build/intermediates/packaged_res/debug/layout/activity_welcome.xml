@@ -9,9 +9,8 @@
     android:gravity="center"
     tools:context=".Welcome">
 
-
     <ImageView
-        android:layout_width="120dp"
+        android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_marginBottom="10dp"
@@ -31,28 +30,41 @@
 
     <Button
         android:id="@+id/btn_login"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/login_button"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
         android:layout_marginBottom="30dp"
         android:text="@string/btn_login"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
         android:onClick="openLoginPage"
+        android:textColor="@color/white"
         android:textSize="20sp"
         style="@style/TextStyle"
+        android:background="@drawable/radius_login"
         android:textAllCaps="false" />
 
     <Button
         android:id="@+id/btn_get_started"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
         android:textSize="20sp"
         style="@style/TextStyle"
         android:text="@string/btn_get_started"
         android:textColor="@color/black"
-        android:background="@drawable/getstarted_button"
+        android:onClick="openRegisterPagePage"
+        android:background="@drawable/radius_button"
         android:textAllCaps="false" />
+    <ProgressBar
+        android:layout_width="24dp"
+        android:layout_height="64dp"
+        android:id="@+id/progress_bar"
+        android:visibility="gone"
+        android:layout_marginTop="12dp"
+        />
 </LinearLayout>
