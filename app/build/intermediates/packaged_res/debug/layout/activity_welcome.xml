@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@color/notes_app"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Welcome">
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/welcome_page_image"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/pink_color"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/btn_login"
+        android:onClick="openLoginPage"
+        android:textSize="20sp"
+        style="@style/TextStyle"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_get_started"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textSize="20sp"
+        style="@style/TextStyle"
+        android:text="@string/btn_get_started"
+        android:textColor="@color/black"
+        android:background="@drawable/getstarted_button"
+        android:textAllCaps="false" />
+</LinearLayout>

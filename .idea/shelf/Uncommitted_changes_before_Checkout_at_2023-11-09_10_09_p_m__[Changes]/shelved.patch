@@ -1,0 +1,26 @@
+Index: app/src/main/java/com/example/notesapp/Login.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.notesapp;\r\n\r\nimport androidx.appcompat.app.AppCompatActivity;\r\n\r\nimport android.os.Bundle;\r\n\r\npublic class Login extends AppCompatActivity {\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_login);\r\n    }\r\n}
+===================================================================
+diff --git a/app/src/main/java/com/example/notesapp/Login.java b/app/src/main/java/com/example/notesapp/Login.java
+--- a/app/src/main/java/com/example/notesapp/Login.java	
++++ b/app/src/main/java/com/example/notesapp/Login.java	
+@@ -1,14 +1,4 @@
+ package com.example.notesapp;
+ 
+-import androidx.appcompat.app.AppCompatActivity;
+-
+-import android.os.Bundle;
+-
+-public class Login extends AppCompatActivity {
+-
+-    @Override
+-    protected void onCreate(Bundle savedInstanceState) {
+-        super.onCreate(savedInstanceState);
+-        setContentView(R.layout.activity_login);
+-    }
+-}
+\ No newline at end of file
++public class Login {
++}

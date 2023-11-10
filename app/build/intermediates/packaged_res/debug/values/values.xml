@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="dark_gray">#202020</color>
+    <color name="grey_btn">#989896</color>
+    <color name="notes_app">#A3575755</color>
+    <color name="pink_color">#D7E6B5F6</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Login">Login</string>
+    <string name="app_name">Welcome to Little Notes!</string>
+    <string name="btn_get_started">Get Started</string>
+    <string name="btn_login">Log In</string>
+    <style name="TextStyle"/>
+    <style name="Theme.NotesApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/notes_app</item>
+        <item name="colorPrimaryVariant">@color/notes_app</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/grey_btn</item>
+        <item name="colorSecondaryVariant">@color/dark_gray</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

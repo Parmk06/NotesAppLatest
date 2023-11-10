@@ -1,0 +1,43 @@
+Index: app/src/main/java/com/example/notesapp/Welcome.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.notesapp;\r\n\r\nimport androidx.appcompat.app.AppCompatActivity;\r\n\r\nimport android.os.Bundle;\r\n\r\npublic class Welcome extends AppCompatActivity {\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_welcome);\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/notesapp/Welcome.java b/app/src/main/java/com/example/notesapp/Welcome.java
+--- a/app/src/main/java/com/example/notesapp/Welcome.java	(revision fe35ea7109ad2781369c4c7dee151bccd24b5f6f)
++++ b/app/src/main/java/com/example/notesapp/Welcome.java	(date 1699585717946)
+@@ -2,7 +2,9 @@
+ 
+ import androidx.appcompat.app.AppCompatActivity;
+ 
++import android.content.Intent;
+ import android.os.Bundle;
++import android.view.View;
+ 
+ public class Welcome extends AppCompatActivity {
+ 
+@@ -11,4 +13,7 @@
+         super.onCreate(savedInstanceState);
+         setContentView(R.layout.activity_welcome);
+     }
++    public void openLoginPage(View view){
++        startActivity(new Intent(this,Login.class));
++    }
+ }
+\ No newline at end of file
+Index: app/src/main/java/com/example/notesapp/Login.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/notesapp/Login.java b/app/src/main/java/com/example/notesapp/Login.java
+new file mode 100644
+--- /dev/null	(date 1699585717939)
++++ b/app/src/main/java/com/example/notesapp/Login.java	(date 1699585717939)
+@@ -0,0 +1,4 @@
++package com.example.notesapp;
++
++public class Login {
++}

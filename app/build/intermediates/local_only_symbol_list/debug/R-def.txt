@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color dark_gray
+color grey_btn
+color notes_app
+color pink_color
+color teal_700
+color white
+drawable email_icon
+drawable eye_toggle_icon
+drawable getstarted_button
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable login1
+drawable login_button
+drawable login_icon
+drawable login_notes_image
+drawable password_icon
+drawable welcome_page_image
+id btn_get_started
+id btn_login
+id tv_welcome
+layout activity_welcome
+mipmap ic_launcher
+mipmap ic_launcher_round
+string Login
+string app_name
+string btn_get_started
+string btn_login
+style TextStyle
+style Theme.NotesApp
+xml backup_rules
+xml data_extraction_rules
