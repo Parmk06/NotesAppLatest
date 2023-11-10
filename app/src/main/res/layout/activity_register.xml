@@ -98,6 +98,20 @@
             android:textSize="18sp"
             />
 
+
+        <Button
+            android:id="@+id/btnAccount"
+            android:layout_width="214dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginEnd="-220dp"
+            android:layout_toStartOf="@id/ed_password"
+            android:gravity="left"
+            android:text="Already Have an Account?"
+            android:textSize="12sp"
+
+            />
+
     </RelativeLayout>
 
     <Button
@@ -122,4 +136,6 @@
         android:layout_height="wrap_content"
         android:visibility="gone" />
 
+
 </LinearLayout>
+

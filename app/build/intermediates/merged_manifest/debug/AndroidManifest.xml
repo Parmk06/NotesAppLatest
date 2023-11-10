@@ -28,7 +28,6 @@
         android:label="Notes App"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.NotesApp" >
         <activity
             android:name="com.example.notesapp.Welcome"

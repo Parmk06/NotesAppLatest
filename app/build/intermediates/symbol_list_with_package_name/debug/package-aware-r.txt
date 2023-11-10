@@ -3204,6 +3204,8 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnAccount
+id btnNoAccount
 id btn_get_started
 id btn_login
 id btn_signup

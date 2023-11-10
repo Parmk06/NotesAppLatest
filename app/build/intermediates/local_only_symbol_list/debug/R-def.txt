@@ -18,6 +18,8 @@ drawable password_icon
 drawable radius_button
 drawable radius_login
 drawable welcome_page_image
+id btnAccount
+id btnNoAccount
 id btn_get_started
 id btn_login
 id btn_signup
