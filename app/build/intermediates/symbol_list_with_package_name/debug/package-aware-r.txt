@@ -2967,6 +2967,8 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable baseline_add_24
+drawable baseline_done_24
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3205,7 +3207,10 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnAccount
+id btnAddNote
+id btnLogout
 id btnNoAccount
+id btnSaveNote
 id btn_get_started
 id btn_login
 id btn_signup
@@ -3282,6 +3287,8 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id edContent
+id edTitle
 id ed_email
 id ed_password
 id edge
@@ -3567,6 +3574,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3592,6 +3600,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_hello
 id tv_login
 id tv_welcome
 id unchecked
@@ -3733,7 +3742,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_home
 layout activity_login
+layout activity_note_details
 layout activity_register
 layout activity_welcome
 layout browser_actions_context_menu_page

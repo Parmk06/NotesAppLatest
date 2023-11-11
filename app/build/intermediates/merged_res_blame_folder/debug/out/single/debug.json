@@ -4,6 +4,14 @@
         "source": "com.example.notesapp-main-38:/drawable/radius_button.xml"
     },
     {
+        "merged": "com.example.notesapp-merged_res-36:/drawable_baseline_add_24.xml.flat",
+        "source": "com.example.notesapp-main-38:/drawable/baseline_add_24.xml"
+    },
+    {
+        "merged": "com.example.notesapp-merged_res-36:/layout_activity_note_details.xml.flat",
+        "source": "com.example.notesapp-main-38:/layout/activity_note_details.xml"
+    },
+    {
         "merged": "com.example.notesapp-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.notesapp-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
@@ -18,6 +26,10 @@
     {
         "merged": "com.example.notesapp-merged_res-36:/layout_activity_register.xml.flat",
         "source": "com.example.notesapp-main-38:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.notesapp-merged_res-36:/drawable_baseline_done_24.xml.flat",
+        "source": "com.example.notesapp-main-38:/drawable/baseline_done_24.xml"
     },
     {
         "merged": "com.example.notesapp-merged_res-36:/drawable_login1.png.flat",
@@ -66,6 +78,10 @@
     {
         "merged": "com.example.notesapp-merged_res-36:/xml_data_extraction_rules.xml.flat",
         "source": "com.example.notesapp-main-38:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.notesapp-merged_res-36:/layout_activity_home.xml.flat",
+        "source": "com.example.notesapp-main-38:/layout/activity_home.xml"
     },
     {
         "merged": "com.example.notesapp-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",

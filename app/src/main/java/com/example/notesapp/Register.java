@@ -18,8 +18,13 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.textfield.TextInputEditText;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class Register extends AppCompatActivity {
 
@@ -28,6 +33,20 @@ public class Register extends AppCompatActivity {
     private ProgressBar progressBar;
     private FirebaseAuth mAuth;
 
+    @Override
+    public void onStart(){
+        super.onStart();
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+//        if(currentUser != null){
+//            Intent intent = new Intent(getApplicationContext(), Register.class);
+//            startActivity(intent);
+//            finish();
+//        }
+    }
+    @Override
+    public <T extends View> T findViewById(int id) {
+        return super.findViewById(id);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +58,7 @@ public class Register extends AppCompatActivity {
         btn_signup = findViewById(R.id.btn_signup);
         progressBar = findViewById(R.id.progressBar);
         btnAccount = findViewById(R.id.btnAccount);
+
 
 //        btn_signup.setOnClickListener(v -> signup());
         btnAccount.setOnClickListener(new View.OnClickListener() {
@@ -97,8 +117,9 @@ public class Register extends AppCompatActivity {
     }
 
     private void OpenLoginUser() {
-        Intent intent = new Intent(Register.this, Login.class);
+        Intent intent = new Intent (getApplicationContext(), Login.class);
         startActivity(intent);
+        finish();
     }
 }
 //    private void signup() {

@@ -8,9 +8,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+
 public class Welcome extends AppCompatActivity {
-    private Button btnLogin;
-    private Button btnGetStarted;
+    private Button btn_login;
+    private Button btn_get_started;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,18 +19,18 @@ public class Welcome extends AppCompatActivity {
         setContentView(R.layout.activity_welcome);
 
         // Find buttons by ID
-        btnLogin = findViewById(R.id.btn_login);
-        btnGetStarted = findViewById(R.id.btn_get_started);
+        btn_login = findViewById(R.id.btn_login);
+        btn_get_started = findViewById(R.id.btn_get_started);
 
         // Set click listeners
-        btnLogin.setOnClickListener(new View.OnClickListener() {
+        btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openLoginActivity();
             }
         });
 
-        btnGetStarted.setOnClickListener(new View.OnClickListener() {
+        btn_get_started.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openRegisterActivity();
